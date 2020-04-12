@@ -3,8 +3,8 @@ include ../includes/components/picture.pug
 include ../includes/components/picture_webp.pug
 include ../includes/components/youtube_video.pug
 block metatags
-  -var title = 'Feliz Desarrollo Web basado en Componentes'
-  -var description = 'Boilerplate para el desarrollo de proyectos Frontend basado en Componentes de @jonmircha'
+  -var title = 'Desarrollo Web basado en Componentes'
+  -var description = 'Boilerplate para el desarrollo de proyectos Frontend basado en Componentes'
   title= title
   meta(name="description", content=description)
   meta(name="application-name", content=title)
@@ -13,7 +13,6 @@ block content
     p.App-title= title
     i.fa.fa-smile-o.fa-5x
     img.App-logo(src="./img/web-components-logo.svg")
-    p.App-title con
     article.App-logos
       div
         img(src="./img/pugjs-logo.svg")
@@ -21,9 +20,7 @@ block content
         img(src="./img/sass-logo.png")
       div
         img(src="./img/js-logo.png")
-    p
-      b
-        a.u-download(href="https://github.com/jonmircha/frontend-components-boilerplate", target="_blank") #[i.fa.fa-download] Descarga este Boilerplate #[i.fa.fa-download]
+
     +picture('kitten-small.png', [ ['kitten-large.png', '(min-width: 64em)'], ['kitten-medium.png', '(min-width: 48em)'] ])
     +pictureWebp('kEnAi')
     div.App-video
