@@ -6,7 +6,7 @@
   "homepage": "https://kikeestrada.github.io/portfolio-npm-boilerplate/",
   "repository": {
     "type": "git",
-    "url": "git://github.com/jonmircha/portfolio-npm-boilerplate.git"
+    "url": "https://github.com/kikeestrada/portfolio-npm-boilerplate.git"
   },
   "scripts": {
     "sass": "node-sass -w --importer node_modules/node-sass-package-importer/dist/cli.js -o ./public/ ./src/scss/",
